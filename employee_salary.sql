@@ -17,3 +17,6 @@ insert into employee_salary (Id, FK_of_employee, Salary, date) values
 (7,8,20000,'2023-5-1'),
 (8,7,18000,'2023-5-1');
 select * from employee_salary;
+update employee_salary set Salary = 28000 where id = 7;
+delete from employee_salary where  id = 4;
+truncate table employee_salary;

@@ -14,5 +14,8 @@ insert into hobby values
 (7,"Yoga"),
 (8,"Cooking"),
 (9,"Traveling"),
-(10,"writing");
+(10,"Writing");
 select * from hobby;
+update hobby set name = "Movies" where id = 3;
+delete from hobby where name = "writing";
+truncate table hobby;

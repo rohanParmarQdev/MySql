@@ -18,3 +18,6 @@ insert into employee values
 (7,"Garvit","Gupta",26,8561714891,"Banglore"),
 (8,"Harshit","Sompura",28,8567982960,"prayagraj");
 select * from employee;
+update employee set Mobile_Number = 6378548864 where id = 2;
+delete from employee where id = 3;
+truncate table employee;
